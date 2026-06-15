@@ -1,0 +1,8 @@
+{
+  "rows": 122400,
+  "columns": 12,
+  "best_model": "Lasso Regression",
+  "top_r2": 0.9525879353893328,
+  "top_rmse": 13.478061860355057,
+  "top_mae": 3.082985140191183
+}
