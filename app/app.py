@@ -159,26 +159,20 @@ def main():
     page = st.sidebar.radio(
         "Pages",
         [
-            "Project Overview",
             "Revenue Prediction",
             "EDA Dashboard",
             "Model Comparison",
-            "Business Insights",
             "Revenue Optimization Advisor",
         ],
     )
 
-    if page == "Project Overview":
-        page_overview(df)
-    elif page == "Revenue Prediction":
+    if page == "Revenue Prediction":
         page_prediction(df)
     elif page == "EDA Dashboard":
         page_eda(df)
     elif page == "Model Comparison":
         page_model_comparison()
-    elif page == "Business Insights":
-        page_insights(df)
-    else:
+    elif page == "Revenue Optimization Advisor":
         page_advisor(df)
 
 
